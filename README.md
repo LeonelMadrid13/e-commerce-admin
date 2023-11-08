@@ -4,14 +4,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Tech Stack
 
-Framework: Next.js (React)
-Language: Typescript
-Styling: Tailwind CSS
-component library: Shadcn.ui, radix-ui
-ORM: Prisma
-Database: mySQL PlanetScale
-Authentication: Clerk
-Deployment: Vercel
+- Framework: Next.js (React)
+- Language: Typescript
+- Styling: Tailwind CSS
+- Component library: Shadcn.ui, radix-ui
+- ORM: Prisma
+- Database: mySQL PlanetScale
+- Authentication: Clerk
+- Deployment: Vercel
 
 ## Todo
 
