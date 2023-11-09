@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@clerk/nextjs': ^4.26.2
   '@hookform/resolvers': ^3.3.2
+  '@next/eslint-plugin-next': ^14.0.1
   '@prisma/client': ^5.5.2
   '@radix-ui/react-dialog': ^1.0.5
   '@radix-ui/react-label': ^2.0.2
@@ -69,6 +70,7 @@ dependencies:
   zustand: 4.4.6_u5zja476buyywzbvglb2fbhaii
 
 devDependencies:
+  '@next/eslint-plugin-next': 14.0.1
   '@types/node': 20.9.0
   '@types/react': 18.2.37
   '@types/react-dom': 18.2.15
