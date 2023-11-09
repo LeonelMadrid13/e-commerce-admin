@@ -9,7 +9,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Styling: Tailwind CSS
 - Component library: Shadcn.ui, radix-ui
 - ORM: Prisma
-- Database: mySQL PlanetScale
+- Database: NoSQL mongoDB
 - Authentication: Clerk
 - Deployment: Vercel
 
@@ -18,8 +18,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - [x] Environment setup (Admin)
 - [x] Clerk Authentication (Admin)
 - [x] Modal components (Admin)
-- [ ] Form components (Admin)
-- [ ] Prisma, PlanetScale, MySQL setup (Admin)
+- [x] Form components (Admin)
+- [x] Prisma, MongoDB, NoSQL setup (Admin)
 - [ ] Dashboard setup (Admin)
 - [ ] Navigation bar (Admin)
 - [ ] Settings page (Admin)
