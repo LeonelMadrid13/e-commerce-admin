@@ -7,6 +7,7 @@ specifiers:
   '@radix-ui/react-dialog': ^1.0.5
   '@radix-ui/react-label': ^2.0.2
   '@radix-ui/react-popover': ^1.0.7
+  '@radix-ui/react-separator': ^1.0.3
   '@radix-ui/react-slot': ^1.0.2
   '@types/node': ^20
   '@types/react': ^18
@@ -48,6 +49,7 @@ dependencies:
   '@radix-ui/react-dialog': 1.0.5_odyphbpq4up353b3xkkenmy5wy
   '@radix-ui/react-label': 2.0.2_odyphbpq4up353b3xkkenmy5wy
   '@radix-ui/react-popover': 1.0.7_odyphbpq4up353b3xkkenmy5wy
+  '@radix-ui/react-separator': 1.0.3_odyphbpq4up353b3xkkenmy5wy
   '@radix-ui/react-slot': 1.0.2_u5zja476buyywzbvglb2fbhaii
   '@typescript-eslint/parser': 6.10.0_5iy6f2d3forlnf27wdbuobyvmm
   axios: 1.6.1
@@ -902,6 +904,27 @@ packages:
     dependencies:
       '@babel/runtime': 7.23.2
       '@radix-ui/react-slot': 1.0.2_u5zja476buyywzbvglb2fbhaii
+      '@types/react': 18.2.37
+      '@types/react-dom': 18.2.15
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
+
+  /@radix-ui/react-separator/1.0.3_odyphbpq4up353b3xkkenmy5wy:
+    resolution: {integrity: sha512-itYmTy/kokS21aiV5+Z56MZB54KrhPgn6eHDKkFeOLR34HMN2s8PaN47qZZAGnvupcjxHaFZnW4pQEh0BvvVuw==}
+    peerDependencies:
+      '@types/react': '*'
+      '@types/react-dom': '*'
+      react: ^16.8 || ^17.0 || ^18.0
+      react-dom: ^16.8 || ^17.0 || ^18.0
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+      '@types/react-dom':
+        optional: true
+    dependencies:
+      '@babel/runtime': 7.23.2
+      '@radix-ui/react-primitive': 1.0.3_odyphbpq4up353b3xkkenmy5wy
       '@types/react': 18.2.37
       '@types/react-dom': 18.2.15
       react: 18.2.0
