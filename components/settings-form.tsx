@@ -3,7 +3,7 @@
 
 import * as z from 'zod'
 import axios from 'axios'
-import { useState } from 'react'
+import * as React from 'react'
 import { Trash } from 'lucide-react'
 import { toast } from 'react-hot-toast'
 import { useForm } from 'react-hook-form'
@@ -35,8 +35,8 @@ const SettingsForm: React.FC<SettingsFormProps> = ({
   const params = useParams()
   const router = useRouter()
 
-  const [open, setOpen] = useState(false)
-  const [loading, setLoading] = useState(false)
+  const [open, setOpen] = React.useState(false)
+  const [loading, setLoading] = React.useState(false)
 
   const form = useForm<SettingsFormValues>({
     resolver: zodResolver(formSchema),

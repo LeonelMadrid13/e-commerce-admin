@@ -1,6 +1,7 @@
 'use client'
 
 import { Copy, Server } from 'lucide-react'
+import * as React from 'react'
 
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
 import { Badge, type BadgeProps } from '@/components/ui/badge'

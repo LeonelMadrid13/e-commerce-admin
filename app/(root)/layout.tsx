@@ -1,3 +1,4 @@
+import * as React from 'react'
 import { auth } from '@clerk/nextjs'
 import { redirect } from 'next/navigation'
 

@@ -1,5 +1,6 @@
 import { auth } from '@clerk/nextjs'
 import { redirect } from 'next/navigation'
+import * as React from 'react'
 
 import SettingsForm from '@/components/settings-form'
 import prismadb from '@/lib/prismadb'
