@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import * as React from 'react'
 import { Model } from '../ui/model'
 import { Button } from '../ui/button'
 
@@ -17,9 +17,9 @@ const AlertModel: React.FC<AlertModelProps> = ({
   onConfirm,
   loading
 }) => {
-  const [isMounted, setIsMounted] = useState(false)
+  const [isMounted, setIsMounted] = React.useState(false)
 
-  useEffect(() => {
+  React.useEffect(() => {
     setIsMounted(true)
   }, [])
 
