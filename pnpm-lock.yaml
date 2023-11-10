@@ -30,6 +30,7 @@ specifiers:
   eslint-plugin-react: ^7.33.2
   lucide-react: ^0.292.0
   next: 14.0.1
+  next-cloudinary: ^5.4.0
   postcss: ^8
   prisma: ^5.5.2
   react: ^18
@@ -60,6 +61,7 @@ dependencies:
   csstype: 3.1.2
   lucide-react: 0.292.0_react@18.2.0
   next: 14.0.1_biqbaboplfbrettd7655fr4n2y
+  next-cloudinary: 5.4.0_next@14.0.1+react@18.2.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-hook-form: 7.48.2_react@18.2.0
@@ -189,6 +191,29 @@ packages:
     engines: {node: '>=14'}
     dependencies:
       csstype: 3.1.1
+    dev: false
+
+  /@cloudinary-util/url-loader/3.15.0:
+    resolution: {integrity: sha512-1Xq/woN0cngKY9e1EBgClomkOSmEy+yriBYqy5FUelxc0bCCZXNTMpkhssdUVnMXJbm8TIOBmqgVfqH5u0/DtQ==}
+    dependencies:
+      '@cloudinary-util/util': 2.3.0
+      '@cloudinary/url-gen': 1.12.1
+    dev: false
+
+  /@cloudinary-util/util/2.3.0:
+    resolution: {integrity: sha512-0Gojd+ZRQjJQmlBEAa8Ua94amvx7uWHoUzVUEGi1S8bgF1wPcMqG07cSUGQfRwHsFQ/9XOesx76Df622E+CevA==}
+    dev: false
+
+  /@cloudinary/transformation-builder-sdk/1.8.0:
+    resolution: {integrity: sha512-/QLSDDI+rfYH3bFH+DpgEk8NgSoeqwiea9GW5VXplcpebQOOcFqOzNFM6Hlik3PDqq4JMP4s3E7BoPZ1Rdk/IQ==}
+    dependencies:
+      '@cloudinary/url-gen': 1.12.1
+    dev: false
+
+  /@cloudinary/url-gen/1.12.1:
+    resolution: {integrity: sha512-TWV2MEZeYuPUt6kmZ9T7AhOq+HpDqkZcoULSGATNMpuq9PAiWUZS58+kas4a4YGinUeDSpfFivZ8KOMkREn1lQ==}
+    dependencies:
+      '@cloudinary/transformation-builder-sdk': 1.8.0
     dev: false
 
   /@eslint-community/eslint-utils/4.4.0_eslint@8.53.0:
@@ -3002,6 +3027,18 @@ packages:
 
   /natural-compare/1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
+
+  /next-cloudinary/5.4.0_next@14.0.1+react@18.2.0:
+    resolution: {integrity: sha512-kE7XVmsC9cLpQgoOXwPO1APM6VwWRJN49u4qjV4amjbm1tt63gO7ZXpCwmS2d6m2VSg3ovP4dFJG5AZA98UOhQ==}
+    peerDependencies:
+      next: ^12 || ^13 || ^14
+      react: ^17 || ^18
+    dependencies:
+      '@cloudinary-util/url-loader': 3.15.0
+      '@cloudinary-util/util': 2.3.0
+      next: 14.0.1_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+    dev: false
 
   /next/14.0.1_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-s4YaLpE4b0gmb3ggtmpmV+wt+lPRuGtANzojMQ2+gmBpgX9w5fTbjsy6dXByBuENsdCX5pukZH/GxdFgO62+pA==}
